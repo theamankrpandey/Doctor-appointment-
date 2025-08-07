@@ -517,4 +517,19 @@
 .logo{
 margin-left:20px ;
 }
+#service{
+  /* border: 2px solid black; */
+  display: grid;
+  grid-template-columns:auto;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  top:100px;
+
+  padding-top: 50px;
+  position:absolute;
+}
+.page{
+  height: auto  ;
+}
 }
