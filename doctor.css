@@ -163,7 +163,6 @@
   width: 50%;
   height: 800px;
   /* border: 1px solid black; */
-  background-image: url(https://static.wixstatic.com/media/2e2a49_14909b1645e64ac794ab5bbf11400604~mv2_d_2927_2671_s_4_2.jpg/v1/fill/w_1470,h_1670,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/2e2a49_14909b1645e64ac794ab5bbf11400604~mv2_d_2927_2671_s_4_2.jpg);
   background-repeat: no-repeat;
   background-position:center;
   background-size: 100%;
@@ -178,7 +177,7 @@
 
 .page4 {
   width: 100%;
-  height: 1100px;
+  height: auto;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -190,7 +189,7 @@
 
 .page4::after {
   content: "";
-  position: absolute;
+  /* position: absolute; */
   top: 0;
   left: 0;
   width: 100%;
@@ -208,7 +207,7 @@
   align-items: center;
   gap: 20px;
   padding-top: 50px;
-  position:inherit;
+  /* position:inherit; */
 }
 .services{
   /* border: 1px solid black; */
@@ -451,20 +450,40 @@
 .page7{
   display: flex;
   justify-content: center;
-  border: 1px solid black;
-  width: 100%;
-  height: 90vh;
 }
 .page7child1{
   width:80%;
   height: 0;
   border: 0.2px solid rgba(0, 0, 0, 0.333);
 }
+.page8{
+  /* border: 2px solid black; */
+  width: 100%;
+  height: 500px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.brandname{
+  display: flex;
+  gap: 100px;
+}
+.brandimage{
+  width: 60%;
+  height:15% ;
+  margin-top: 50px;
+}
+.brandimage1{
+  width: 30%;
+  height: 4vh;
+  margin-top: 62px;
+}
 #bar{
   position: absolute;
   top: 2%;
-  left  : 2%;
-  right: 2%;
+  left  : 82%;
+  right: 0%;
   font-size: 30px;
   z-index: 10;
   display: block;
@@ -525,11 +544,30 @@ margin-left:20px ;
   align-items: center;
   gap: 20px;
   top:100px;
-
   padding-top: 50px;
   position:absolute;
 }
-.page{
-  height: auto  ;
+.doctorpic{
+  width: 100%;
+  height: 90vh;
+}
+.readmore{
+  margin-bottom:50px;
+}
+.page1{
+  height: auto;
+}
+.page2{
+  height: auto;
+}
+.page4 {
+  width: 100%;
+  height: auto;
+}
+.page3{
+  height: auto;
+}
+.page5{
+  height: auto;
 }
 }
