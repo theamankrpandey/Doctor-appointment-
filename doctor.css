@@ -135,7 +135,7 @@
   gap: 20px;
   padding-left: 10%;
   padding-right: 10%;
-  background-color: antiquewhite;
+  background-color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
 .readmore{
@@ -177,7 +177,7 @@
 
 .page4 {
   width: 100%;
-  height: auto;
+  height: 100%;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -220,7 +220,7 @@
   width: 100%;
   height:50%;
   /* border: 1px solid black; */
-  background-size:50%;
+  background-size:90%;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -231,7 +231,7 @@
   width: 100%;
   height:50%;
   /* border: 1px solid black; */
-  background-size:50%;
+  background-size:90%;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -242,7 +242,7 @@
   width: 100%;
   height:50%;
   /* border: 1px solid black; */
-  background-size:50%;
+  background-size:90%;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -253,7 +253,7 @@
   width: 100%;
   height:50%;
   /* border: 1px solid black; */
-  background-size:50%;
+  background-size:90%;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -264,7 +264,7 @@
   width: 100%;
   height:50%;
   /* border: 1px solid black; */
-  background-size:50%;
+  background-size:90%;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -275,7 +275,7 @@
   width: 100%;
   height:50%;
   /* border: 1px solid black; */
-  background-size:50%;
+  background-size:90%;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
@@ -350,29 +350,42 @@
 .services  p{
   font-size: 20px;
   padding-left: 10%;
-}
+} 
 .services  p a{
   text-decoration: none;
   color:rgb(89, 88, 88);
 }
 .booknow{
-  margin-top: 30px;
-  margin-left: 30px;
-  color: #f97425;
+  border: 1.5px solid;
+  margin-top: 30px; 
+  color: #f97325;
   border-color: #f97425;
-  border-radius: 10px;
-  padding-bottom: 3px;
-  padding-top: 3px;
+  background-color:white;
+  border-radius: 20px;
+  margin-left: 20px;
+  padding-bottom: 7px;
+  padding-top: 7px;
+  padding-left:10px ;
+  padding-right:10px ;
 }
-.booknow p a{
+.booknow a{
+  color:#f95b0080;
   text-decoration: none;
 }
-.booknow:hover{
-  background-color: rgb(89, 88, 88);
-  border-color:chartreuse;
+.book{
+  margin-top: 30px;
 }
+.book1{
+  text-decoration: none ;
+  color: rgba(0, 0, 0, 0.622);
+  margin-left: 20px;
+}
+.booknow:hover{
+  text-decoration:underline;
+}
+
 .moreservice{
-  margin-top: 200px;
+  margin-top:50px;
   background-color: #f97425;
   border-radius: 10px;
   padding:5px 5px 5px 5px;
@@ -383,11 +396,6 @@
   padding-bottom: 3px;
   padding-top: 3px;
   color: white;
-}
-.moreservice:hover{
-  background-color:#2751A3;
-  color: black;
-  font-style: italic;
 }
 #page5{
   width:100%;
@@ -452,32 +460,70 @@
   justify-content: center;
 }
 .page7child1{
-  width:80%;
+  width:60%;
   height: 0;
   border: 0.2px solid rgba(0, 0, 0, 0.333);
 }
 .page8{
-  /* border: 2px solid black; */
   width: 100%;
-  height: 500px;
-  margin-top: 10px;
+  height: auto;
+  border: 1px solid black;
+}
+
+
+#brandname{
   display: flex;
   justify-content: center;
+  
 }
-.brandname{
+
+.sponserImg{
   display: flex;
   gap: 100px;
+  margin-top: 30px;
 }
+
 .brandimage{
-  width: 60%;
-  height:15% ;
-  margin-top: 50px;
+  width:50px;
+  height:50px;
+  /* margin-top: 50px; */
 }
+
 .brandimage1{
-  width: 30%;
-  height: 4vh;
-  margin-top: 62px;
+  width:90px;
+  height:50px;
+  /* margin-top: 50px; */
 }
+
+.anchor{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.patient{
+  padding-top: 10px;
+   padding-bottom: 10px;
+    padding-left: 20px;
+     padding-right: 20px;
+  border-radius: 20px;
+  border: #f97325;
+  background-color: #f97425;
+  /* background-color: white; */
+}
+
+
+.page8 .anchor .patient a{
+  text-decoration: none;
+  color: white;
+  background-color: #f97425;
+}
+
+.page8 .anchor .patient a:hover{
+  text-decoration: underline;
+}
+
+
 #bar{
   position: absolute;
   top: 2%;
@@ -490,7 +536,25 @@
 #check{
   display: none;
 }
-
+.formparent{
+  width: 100%;
+  height:100vh;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.form{
+  border: 1px solid black;
+  width:25%;
+  height: 50vh;
+}
+.form h1{
+  margin-left:10px ;
+  color: #2751A3;
+  font-size: 35px;
+  font-family:Arial, Helvetica, sans-serif;
+}
 @media(max-width:430px){
   .navbar nav ul{
   display: none;
