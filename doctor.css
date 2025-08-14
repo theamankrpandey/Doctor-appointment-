@@ -536,33 +536,6 @@
 #check{
   display: none;
 }
-.formparent{
-  width: 100%;
-  height:100vh;
-  /* border: 2px solid black; */
-  display: flex;
-  justify-content:center;
-  align-items: center;
-}
-.formlogin{
-  border: none;
-  border-bottom: 2px solid #ccc;
-  outline: none;
-  display: flex;
-}
-.form{
-  border: 1px solid black;
-  width:50%;
-  height: 50vh;
-  display: flex;
-  flex-direction: column;
-}
-.form h1{
-  margin-left:10px ;
-  color: #2751A3;
-  font-size: 35px;
-  font-family:Arial, Helvetica, sans-serif;
-}
 @media(max-width:430px){
   .navbar nav ul{
   display: none;
