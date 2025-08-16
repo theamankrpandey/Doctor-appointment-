@@ -12,7 +12,6 @@
   justify-content: space-between;
   align-items: center;
   background-color: white;
-  /* border-radius: 10px; */
   position:fixed;
   z-index: 99;
 }
@@ -547,6 +546,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-evenly;
 }
 .loginparent{
   border: 1px solid black;
@@ -555,6 +555,16 @@
   position:absolute;
   background-color: white;
   z-index: 1;
+}
+.loginchild{
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+.page9 .loginparent h2{
+  color: #2751A3;
+  font-size: 35px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 .map{
   position: absolute;
