@@ -548,18 +548,64 @@
   align-items: center;
   justify-content: space-evenly;
 }
+.page9 form label{
+  color: #1e52b98b;
+}
 .loginparent{
   border: 1px solid black;
-  width:30%;
-  height:60vh;
+  width:35%;
+  height:70vh;
   position:absolute;
   background-color: white;
   z-index: 1;
+}
+.form{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.formchild{
+  display:flex;
+  flex-direction: column;
+}
+.formchild input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 8px 5px;
+  font-size: 14px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+.formchild input:hover {
+  border-bottom: 1px solid #2751A3; 
+}
+.fname{
+  width: 200px;
+}
+.lname{
+  width: 200px;
+}
+.gmail{
+  width: 500px;   
+  border-bottom: 2px solid #ccc;
+}
+.phone{
+  width: 500px;   
+  border-bottom: 2px solid #ccc;
+}
+.gmail:focus {
+  border-bottom: 2px solid #2751A3;
+}
+.massage{
+  width: 500px;
+  height: 100px;
 }
 .loginchild{
   display: flex;
   align-items: center;
   margin-top: 10px;
+  flex-wrap: wrap;
 }
 .page9 .loginparent h2{
   color: #2751A3;
